@@ -35,28 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Physical Therapist",
+    location: "Multiple locations",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I worked as a physical therapist, specializing in orthopedics and vestibular rehabilitation.",
+    icon: React.createElement(CgWorkAlt)
+    ,
+    date: "2018 - 2021",
+  },
+  {
+    title: "Computer Software Engineering Immersive Bootcamp",
+    location: "Per Scholas",
+    description:
+      "I completed a full stack software development bootcamp, achieving a 99.63% final grade, where I gained proficiency in the MERN stack, JavaScript, and computer science concepts.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer (Contract position)",
+    location: "Nexus Technologies Group, LLC.",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I joined a team of 3 web developers to build a WordPress website for a new Jamaican restaurant.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
   },
 ] as const;
 
@@ -64,22 +65,29 @@ export const projectsData = [
   {
     title: "The Helicopter Game",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Solo Project: Recreated the classic Helicopter Game with new features such as 1 or 2-player modes, player lives, and high score functionality.",
+    tags: ["JavaScript", "HTML5", "CSS3", "HTML Canvas"],
     imageUrl: helicopterGameImg,
   },
   {
     title: "Jeopardy Game",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Jeopardy trivia game built with React and deploye don Netlify.",
+    tags: ["React", "Netlify"],
     imageUrl: jeopardyImg,
   },
   {
     title: "Recipe Finder",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A website to help you find what recipes you can make with the ingredients you already have in your kitchen. Complete CRUD app created with the MERN stack",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "CSS3", "JSON Web Token"],
+    imageUrl: recipeFinderImg,
+  },
+  {
+    title: "TherapEase",
+    description:
+      "Team project: Collaborated with a team of 4 developers to create an app to enhance the appointment scheduling process for patients and physical therapists.",
+    tags: ["TypeScript", "Next.js", "Google Firebase & Firestore", "TailwindCSS", "Figma"],
     imageUrl: recipeFinderImg,
   },
 ] as const;
@@ -91,17 +99,22 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Bootstrap",
+  "TailwindCSS",
+  "WordPress",
+  "Figma",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MongoDB",
+  "Google Firebase & Firestore",
+  "REST APIs",
+  "Object Oriented Programming",
+  "Git",
+  "GitHub",
+  "Gitpod",
+  "Visual Studio Code",
+  "Electronic Medical Records (EMR/EHR)",
+  "Google Workspace",
+  "Microsoft Office",
+  "Trello",
 ] as const;
