@@ -36,9 +36,9 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}    
         >
-            Hello, my name is Kathleen 👋<br />
+            Hello, my name is Kathleen 👋🏽<br />
             I'm a physical therapist turned software engineer 👩🏻‍⚕️👩🏻‍💻<br />
-            Let's connect! 🤝<br />
+            Let's connect! 🫱🏽‍🫲🏼<br />
         </motion.p>
 
         <motion.div 
@@ -51,21 +51,21 @@ export default function Intro() {
         >
             <Link 
                 href="#contact" 
-                className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full'
+                className='group bg-gray-900 text-white text-base px-7 py-2 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:bg-gray-950 hover:shadow-sky-200 active:scale-100 transition sm:text-base'
             >
-                Contact <FaArrowRight />
+                Contact <FaArrowRight className='opacity-50 group-hover:translate-x-1 transition'/>
             </Link>
 
-            <a href="resume" target="_blank" className='bg-white px-7 py-3 flex items-center gap-2 rounded-full'>
-                Resume <FaArrowUpRightFromSquare />
+            <a href="/resume.pdf" target="_blank" className='group bg-white text-base px-7 py-2 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition sm:text-base '>
+                Resume <FaArrowUpRightFromSquare className='opacity-50 group-hover:-translate-y-1 transition'/>
             </a>
 
-            <a href="link" target="_blank" className='bg-white px-7 py-3 flex items-center gap-2 rounded-full'>
-                <FaLinkedin />
+            <a href="https://www.linkedin.com/in/kathleenmercado/" target="_blank" className='group bg-white text-[#0072b1] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105  hover:shadow-sky-200 active:scale-100 transition'>
+                <FaLinkedin className='group-hover:scale-105' />
             </a>
 
-            <a href="link" target="_blank" className='bg-white px-7 py-3 flex items-center gap-2 rounded-full'>
-                <FaGithub />
+            <a href="https://www.linkedin.com/in/kathleenmercado" target="_blank" className='group bg-white text-[#171515] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200  active:scale-100 transition'>
+                <FaGithub className='group-hover:scale-105'/>
             </a>
 
         </motion.div>
