@@ -33,7 +33,7 @@ export default function Intro() {
         </div>
         
         {/* intro paragraph */}
-        <motion.p 
+        <motion.h1 
             className='flex items-center justify-center text-center mb-4 mt-4 text-lg font-medium text-gray-950 sm:text-xl sm:mt-0 sm:mb-0 sm:py-3'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}    
@@ -41,7 +41,7 @@ export default function Intro() {
             Hello, my name is Kathleen 👋🏽<br />
             I'm a physical therapist turned software engineer 👩🏻‍⚕️👩🏻‍💻<br />
             Let's connect! 🫱🏽‍🫲🏼<br />
-        </motion.p>
+        </motion.h1>
 
         {/* CTA buttons */}
         <motion.div 
