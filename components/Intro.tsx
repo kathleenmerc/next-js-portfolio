@@ -1,11 +1,11 @@
-'use client'
+'use client';
 
-import React from 'react'
-import Image from 'next/image'
-import profilePhotoImg from '@/public/profilePhotoImg.png'
-import { motion } from 'framer-motion'
-import Link from 'next/link'
-import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6'
+import React from 'react';
+import Image from 'next/image';
+import profilePhotoImg from '@/public/profilePhotoImg.png';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6';
 
 export default function Intro() {
   return (

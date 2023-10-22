@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import helicopterGameImg from "@/public/helicopterGameImg.png";
 import jeopardyImg from "@/public/jeopardyImg.png";
-import recipeFinderImg from "@/public/recipeFinderImg.png"
+import recipeFinderImg from "@/public/recipeFinderImg.png";
 
 export const links = [
   {
