@@ -81,7 +81,7 @@ export default function Intro() {
 
             {/* github button */}
             <a 
-                href="https://www.linkedin.com/in/kathleenmercado"
+                href="https://github.com/kathleenmerc"
                 target="_blank"
                 className='group bg-white text-[#171515] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200  active:scale-100 transition'
             >
