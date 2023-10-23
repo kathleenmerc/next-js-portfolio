@@ -9,7 +9,7 @@ import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 're
 
 export default function Intro() {
   return (
-    <section className='mb-20 mt-24 max-w-[50rem] text-center sm:mb-30 sm:mt-0 scroll-mt-[100rem]'>
+    <section className='mb-20 mt-24 max-w-[50rem] text-center sm:mb-30 sm:mt-0 scroll-mt-[100rem]' id='home'>
         {/* profile photo  */}
         <div className='flex items-center justify-center'>
             <motion.div
