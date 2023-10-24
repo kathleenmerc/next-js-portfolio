@@ -1,15 +1,35 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import profilePhotoImg from '@/public/profilePhotoImg.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6';
+import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider';
+import { useInView } from 'react-intersection-observer';
 
 export default function Intro() {
+
+    {/* setting the active section when Intro section is in viewport */ }
+    const { ref, inView } = useInView({
+        threshold: 0.5
+    })
+    const { setActiveSection } = useActiveSectionContext()
+
+    useEffect(() => {
+        if (inView) {
+            setActiveSection("Home")
+        }
+    }, [inView, setActiveSection])
+
+
   return (
-    <section className='mb-20 mt-24 max-w-[50rem] text-center sm:mb-30 sm:mt-0 scroll-mt-[100rem]' id='home'>
+    <section 
+        ref={ref}
+        className='mb-20 mt-24 max-w-[50rem] text-center sm:mb-30 sm:mt-0 scroll-mt-[100rem]'
+        id='home'
+    >
         {/* profile photo  */}
         <div className='flex items-center justify-center'>
             <motion.div
