@@ -17,13 +17,13 @@ export default function Project({
     repoLink 
     }: ProjectProps) {
   return (
-        <section className='flex-col justify-center text-center m-2 p-6 bg-gray-100 w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
+        <section className='flex-col justify-center text-center m-2 p-6 bg-gray-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
 
             {/* project title */}
             <h3 className='text-lg font-semibold'>{title}</h3>
 
             {/* project description */}
-            <p className=' my-2 leading-relaxed text-gray-700 h-[4rem]'>{description}</p>
+            <p className=' my-2 leading-relaxed text-slate-700 h-[4rem]'>{description}</p>
 
             {/* project links buttons */}
             <div className='flex justify-center mt-4'>
