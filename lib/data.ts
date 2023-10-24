@@ -25,40 +25,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Contact",
     hash: "#contact",
-  },
-] as const;
-
-export const experiencesData = [
-  {
-    title: "Physical Therapist",
-    location: "Multiple locations",
-    description:
-      "I worked as a physical therapist, specializing in orthopedics and vestibular rehabilitation.",
-    icon: React.createElement(CgWorkAlt)
-    ,
-    date: "2018 - 2021",
-  },
-  {
-    title: "Computer Software Engineering Immersive Bootcamp",
-    location: "Per Scholas",
-    description:
-      "I completed a full stack software development bootcamp, achieving a 99.63% final grade, where I gained proficiency in the MERN stack, JavaScript, and computer science concepts.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2023",
-  },
-  {
-    title: "Web Developer (Contract position)",
-    location: "Nexus Technologies Group, LLC.",
-    description:
-      "I joined a team of 3 web developers to build a WordPress website for a new Jamaican restaurant.",
-    icon: React.createElement(FaReact),
-    date: "2023",
   },
 ] as const;
 
