@@ -17,7 +17,7 @@ export default function Project({
     repoLink 
     }: ProjectProps) {
   return (
-        <section className='flex-col justify-center text-center m-2 p-6 bg-gray-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
+        <section className='flex-col justify-center text-center mt-3 mb-2 mx-2 p-6 bg-gray-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
 
             {/* project title */}
             <h3 className='text-lg font-semibold'>{title}</h3>
@@ -30,7 +30,7 @@ export default function Project({
                 <Link 
                     href={liveLink}
                     target="_blank"
-                    className='bg-gray-900 text-white text-[1.5rem] px-3 py-1 m-2 rounded-full shadow-lg hover:scale-105 hover:bg-gray-950 hover:shadow-sky-200 active:scale-100 transition text-base'
+                    className='bg-gray-900 text-white text-[1.55rem] px-3 py-1 m-2 rounded-full shadow-lg hover:scale-105 hover:bg-gray-950 hover:shadow-sky-200 active:scale-100 transition text-base'
                 >
                     <FaLink />
                 </Link>
@@ -38,7 +38,7 @@ export default function Project({
                 <Link 
                     href={repoLink}
                     target="_blank"
-                    className='bg-gray-900 text-white text-[1.5rem] px-3 py-1 m-2 rounded-full shadow-lg hover:scale-105 hover:bg-gray-950 hover:shadow-sky-200 active:scale-100 transition text-base'
+                    className='bg-gray-900 text-white text-[1.55rem] px-3 py-1 m-2 rounded-full shadow-lg hover:scale-105 hover:bg-gray-950 hover:shadow-sky-200 active:scale-100 transition text-base'
                 >
                     <FaCode />
                 </Link>
