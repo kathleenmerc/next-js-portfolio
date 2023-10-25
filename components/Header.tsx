@@ -9,7 +9,6 @@ import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider'
 
 
 export default function Header() {
-  //const { activeSection, setActiveSection } = useContext(ActiveSectionContext)
   const { activeSection, setActiveSection } = useActiveSectionContext()
 
   return (
