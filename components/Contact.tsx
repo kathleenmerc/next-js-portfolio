@@ -23,21 +23,21 @@ const { ref } = useSectionInView("Contact", 0.5);
             <Link 
                 href="#mailto:kathleenmerc@gmail.com" 
                 target="_blank"
-                className='flex items-center gap-3 p-2 mb-2 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
+                className='flex items-center gap-3 py-2 px-4 mb-2 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
                 <FaEnvelope className='text-gray-900 font-bold text-2xl'/>kathleenmerc@gmail.com
             </Link>
 
             <Link 
                 href="https://www.linkedin.com/in/kathleenmercado/"
                 target="_blank" 
-                className='flex items-center gap-3 p-2 mb-1 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
+                className='flex items-center gap-3 py-2 px-4 mb-1 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
                 <FaLinkedin className='text-gray-900 font-bold text-2xl'/>kathleenmercado
             </Link>
 
             <Link 
                 href="https://github.com/kathleenmerc"
                 target="_blank" 
-                className='flex items-center gap-3 p-2 mb-1 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
+                className='flex items-center gap-3 py-2 px-4 mb-1 text-gray-800 font-semibold rounded-lg hover:shadow-lg hover:shadow-sky-200 hover:text-gray-950 transition'>
                 <FaGithub className='text-gray-900 font-bold text-2xl'/>kathleenmerc
             </Link>
             
