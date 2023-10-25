@@ -17,7 +17,7 @@ export default function Project({
     repoLink 
     }: ProjectProps) {
   return (
-        <section className='flex-col justify-center text-center mt-3 mb-2 mx-2 p-6 bg-gray-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
+        <section className='flex-col justify-center text-center mt-3 mb-2 mx-2 p-6 bg-slate-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden '>
 
             {/* project title */}
             <h3 className='text-lg font-semibold'>{title}</h3>

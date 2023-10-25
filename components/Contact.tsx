@@ -19,7 +19,7 @@ const { ref } = useSectionInView("Contact", 0.5);
     >
         <SectionHeading>Contact</SectionHeading>
 
-        <div className='flex-col gap-8 border mt-3 mb-2 mx-2 p-8 bg-white border-gray-200 shadow-lg transition border-black/5 rounded-lg'>
+        <div className='flex-col gap-8 mt-3 mb-2 mx-2 py-8 px-20 bg-slate-100 rounded-lg border border-black/5 shadow-lg hover:border-gray-200 hover:shadow-lg hover:bg-white transition'>
             <Link 
                 href="#mailto:kathleenmerc@gmail.com" 
                 target="_blank"
