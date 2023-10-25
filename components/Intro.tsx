@@ -1,28 +1,17 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import profilePhotoImg from '@/public/profilePhotoImg.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6';
-import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider';
-import { useInView } from 'react-intersection-observer';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-
-    {/* setting the active section when Intro section is in viewport */ }
-    const { ref, inView } = useInView({
-        threshold: 0.5
-    })
-    const { setActiveSection } = useActiveSectionContext()
-
-    useEffect(() => {
-        if (inView) {
-            setActiveSection("Home")
-        }
-    }, [inView, setActiveSection])
-
+    
+    {/* setting the active section when Intro section is in viewport */}
+   const { ref } = useSectionInView("Home", 1);
 
   return (
     <section 

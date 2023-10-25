@@ -1,12 +1,11 @@
 'use client';
 
 import React, { useState, createContext, useContext } from 'react';
-import { links } from '@/lib/data';
+import type { SectionName } from '@/lib/types';
 
 {/* this component will keep track of state logic */}
 {/* navbar active section */}
 
-type SectionName = typeof links[number]["name"]
 
 type ActiveSectionContextProvidersProps = {
   children: React.ReactNode
