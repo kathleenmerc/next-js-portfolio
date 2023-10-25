@@ -15,7 +15,7 @@ export default function Projects() {
     return (
         <motion.section
             ref={ref}
-            className='mb-20 leading-8 sm:mb-30 scroll-mt-28'
+            className='mb-28 leading-8 sm:mb-30 scroll-mt-28'
             id='projects'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
