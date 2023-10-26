@@ -31,8 +31,7 @@ export const links = [
 export const projectsData = [
   {
     title: "Recipe Finder",
-    description:
-      "A website to help you find what recipes you can make with the ingredients you already have in your kitchen.",
+    description: "A website to help you find what recipes you can make with the ingredients you already have in your kitchen.",
     tags: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "CSS3", "JSON Web Token", "Render"],
     imageUrl: recipeFinderImg,
     liveLink: "https://recipe-finder.onrender.com/",
@@ -40,8 +39,7 @@ export const projectsData = [
   },
   {
     title: "The Helicopter Game",
-    description:
-      "Recreated the classic Helicopter Game with new features such as 1 or 2-player modes, player lives, and high score functionality.",
+    description: "Recreated the classic Helicopter Game with new features such as 1 or 2-player modes, player lives, and high score functionality.",
     tags: ["Vanilla JavaScript", "HTML5", "CSS3", "HTML Canvas", "GitHub Pages"],
     imageUrl: helicopterGameImg,
     liveLink: "https://kathleenmerc.github.io/helicopter-game",
@@ -49,17 +47,15 @@ export const projectsData = [
   },
   {
     title: "Jeopardy Game",
-    description:
-      "Jeopardy trivia game built with React and deployed on Netlify.",
+    description: "Jeopardy trivia game built with React and deployed on Netlify.",
     tags: ["React", "JavaScript", "CSS3", "Netlify"],
     imageUrl: jeopardyImg,
-    liveLink:"https://jeopardy-game-km.netlify.app/",
+    liveLink: "https://jeopardy-game-km.netlify.app/",
     repoLink: "https://github.com/kathleenmerc/react-jeopardy",
   },
   {
     title: "TherapEase",
-    description:
-      "An app to enhance the appointment scheduling process for patients and physical therapists.",
+    description: "An app to enhance the appointment scheduling process for patients and physical therapists.",
     tags: ["TypeScript", "Next.js", "Google Firebase & Firestore", "Tailwind CSS", "Figma"],
     imageUrl: therapeaseImg,
     liveLink: "https://vimeo.com/877328348?share=copy",
@@ -67,8 +63,7 @@ export const projectsData = [
   },
   {
     title: "Coffee Corner",
-    description:
-      "A website for a cafe, with responsive designs for desktop and mobile devices.",
+    description: "A website for a cafe, with responsive designs for desktop and mobile devices.",
     tags: ["HTML", "CSS", "Bootstrap", "GitHub Pages"],
     imageUrl: coffeeCornerImg,
     liveLink: "https://kathleenmerc.github.io/coffee-corner-website/",
@@ -76,8 +71,7 @@ export const projectsData = [
   },
   {
     title: "Portfolio",
-    description:
-      "My personal portfolio website to share my projects, skills, and contact information.",
+    description: "My personal portfolio website to share my projects, skills, and contact information.",
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel" ],
     imageUrl: portfolioImg,
     liveLink: "#",
