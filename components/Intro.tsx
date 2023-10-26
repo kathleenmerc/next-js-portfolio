@@ -4,10 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 import profilePhotoImg from '@/public/profilePhotoImg.png';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { FaArrowRight, FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6';
+import { FaArrowUpRightFromSquare, FaLinkedin, FaGithub } from 'react-icons/fa6';
 import { FcGoogle } from 'react-icons/fc'
-import { GrGoogle } from 'react-icons/gr'
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {

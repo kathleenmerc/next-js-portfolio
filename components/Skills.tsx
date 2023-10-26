@@ -4,7 +4,7 @@ import React from 'react';
 import { skillsData } from '@/lib/data';
 import SectionHeading from './SectionHeading';
 import { useSectionInView } from '@/lib/hooks';
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 {/* framer motion fade in animation settings for each skill */}
 const fadeInAnimationVariants = {
