@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     title: "Portfolio",
-    description: "My personal portfolio website to share my projects, skills, and contact information.",
+    description: "My personal portfolio website sharing my projects, skills, and contact information.",
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel" ],
     imageUrl: portfolioImg,
     liveLink: "#",
