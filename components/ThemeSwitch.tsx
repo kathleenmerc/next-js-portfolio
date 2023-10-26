@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { BsMoon, BsSun } from 'react-icons/bs';
 
 
-type Theme = "light" | "dark"
+export type Theme = "light" | "dark"
 
 
 export default function ThemeSwitch() {
