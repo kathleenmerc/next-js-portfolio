@@ -36,14 +36,14 @@ export default function Intro() {
                         height="192"
                         quality="95"
                         priority={true}
-                        className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-x1"
+                        className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white/80 shadow-x1"
                     />
             </motion.div>
         </div>
         
         {/* intro paragraph */}
         <motion.h1 
-            className='flex items-center justify-center text-center mb-4 mt-4 text-lg font-medium text-gray-950 sm:text-xl sm:mt-0 sm:mb-0 sm:py-3'
+            className='flex items-center justify-center text-center mb-4 mt-4 text-lg font-medium text-gray-950 sm:text-xl sm:mt-0 sm:mb-0 sm:py-3 dark:text-white/90'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}    
         >
@@ -74,7 +74,7 @@ export default function Intro() {
             <a 
                 href="/resume.pdf" 
                 target="_blank" 
-                className='group bg-white text-base px-7 py-2 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition sm:text-base '
+                className='group bg-white text-base px-7 py-2 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition sm:text-base dark:bg-white/10 dark:text-white/80 dark:hover:text-white'
             >
                 Resume <FaArrowUpRightFromSquare className='opacity-50 group-hover:-translate-y-1 transition'/>
             </a>
@@ -83,7 +83,7 @@ export default function Intro() {
             <a 
                 href="https://www.linkedin.com/in/kathleenmercado/"
                 target="_blank"
-                className='group bg-white text-[#0072b1] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition'
+                className='group bg-white text-[#0072b1] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition dark:bg-white/10 dark:text-white/80 dark:hover:text-white'
             >
                 <FaLinkedin className='group-hover:scale-105' />
             </a>
@@ -92,7 +92,7 @@ export default function Intro() {
             <a 
                 href="https://github.com/kathleenmerc"
                 target="_blank"
-                className='group bg-white text-[#171515] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200  active:scale-100 transition'
+                className='group bg-white text-[#171515] p-3 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200  active:scale-100 transition dark:bg-white/10 dark:text-white/80 dark:hover:text-white'
             >
                 <FaGithub className='group-hover:scale-105'/>
             </a>
