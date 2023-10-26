@@ -16,7 +16,7 @@ export default function Header() {
 
       {/* white navbar background */}
         <motion.div 
-          className="group fixed top-0 left-1/2 h-[3.5rem] w-full rounded-none border border-white border-opacity-50 bg-gray-200 bg-opacity-50 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full"
+          className="group fixed top-0 left-1/2 h-[3.5rem] w-full rounded-none border border-white border-opacity-50 bg-gray-200 bg-opacity-50 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
         
           /* Bounce effect */
           initial={{ y: -100, x: "-50%", opacity: 0 }}
@@ -35,8 +35,8 @@ export default function Header() {
                   animate={{ y: 0, opacity: 1 }}
                 >
                   <Link 
-                    className={clsx("flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition", 
-                              {"text-gray-950": activeSection === link.name,}
+                    className={clsx("flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300", 
+                              {"text-gray-950 dark:text-gray-200": activeSection === link.name,}
                     )}
                     href={link.hash}
                     onClick={() => setActiveSection(link.name)}
