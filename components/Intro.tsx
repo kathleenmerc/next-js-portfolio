@@ -96,7 +96,7 @@ export default function Intro() {
 
                 {/* resume button */}
                 <a
-                    href="/resume.pdf"
+                    href="/Kathleen-Mercado-Resume.pdf"
                     target="_blank"
                     className='group mx-auto bg-white text-base px-7 py-2 mt-2 w-36 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200 active:scale-100 transition sm:text-base dark:bg-white/10 dark:text-white/80 dark:hover:text-white dark:hover:shadow-sm dark:hover:shadow-sky-200'
                 >
