@@ -65,7 +65,7 @@ export default function Intro() {
                 <div className='flex justify-center items-center'>
                     {/* gmail button */}
                     <a
-                        href="#mailto:kathleenmerc@gmail.com"
+                        href="mailto:kathleenmerc@gmail.com"
                         target="_blank"
                         className='group bg-white p-3 m-2 flex items-center gap-3 rounded-full shadow-lg hover:scale-105 hover:shadow-sky-200  active:scale-100 transition dark:bg-white/10 dark:text-white/80 dark:hover:text-white dark:hover:shadow-sm dark:hover:shadow-sky-200'
                     >
