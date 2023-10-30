@@ -38,6 +38,14 @@ export const projectsData = [
     repoLink: "https://github.com/kathleenmerc/recipe-finder",
   },
   {
+    title: "TherapEase",
+    description: "An app to enhance the appointment scheduling process for patients and physical therapists.",
+    tags: ["TypeScript", "Next.js", "Google Firebase & Firestore", "Tailwind CSS", "Figma"],
+    imageUrl: therapeaseImg,
+    liveLink: "https://vimeo.com/877328348?share=copy",
+    repoLink: "https://github.com/chingu-voyages/v44-tier3-team-40"
+  },
+  {
     title: "The Helicopter Game",
     description: "Recreated the classic Helicopter Game with new features such as 1 or 2-player modes, player lives, and high score functionality.",
     tags: ["Vanilla JavaScript", "HTML5", "CSS3", "HTML Canvas", "GitHub Pages"],
@@ -52,14 +60,6 @@ export const projectsData = [
     imageUrl: jeopardyImg,
     liveLink: "https://jeopardy-game-km.netlify.app/",
     repoLink: "https://github.com/kathleenmerc/react-jeopardy",
-  },
-  {
-    title: "TherapEase",
-    description: "An app to enhance the appointment scheduling process for patients and physical therapists.",
-    tags: ["TypeScript", "Next.js", "Google Firebase & Firestore", "Tailwind CSS", "Figma"],
-    imageUrl: therapeaseImg,
-    liveLink: "https://vimeo.com/877328348?share=copy",
-    repoLink: "https://github.com/chingu-voyages/v44-tier3-team-40"
   },
   {
     title: "Coffee Corner",
