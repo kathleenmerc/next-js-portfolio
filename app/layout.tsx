@@ -11,10 +11,16 @@ import portfolioImg from "@/public/portfolioImg.png";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Kathleen Mercado | Portfolio',
-  description: 'Kathleen Mercado is a physical therapist turned software engineer',
-  image: portfolioImg,
-  url: 'https://kathleenmercado.vercel.app/'
+  openGraph: {
+    title: 'Kathleen Mercado | Portfolio',
+    description: 'Kathleen Mercado is a physical therapist turned software engineer',
+    url: 'https://kathleenmercado.vercel.app/',
+    images: [
+      {
+        url: 'https://github.com/kathleenmerc/next-js-portfolio/blob/39cef7ce101c2984763739dce40b8bc59bae617f/public/portfolioImg.png',
+      }
+    ]
+  }
 }
 
 export default function RootLayout({
