@@ -17,7 +17,7 @@ export const metadata = {
     url: 'https://kathleenmercado.vercel.app/',
     images: [
       {
-        url: 'https://github.com/kathleenmerc/next-js-portfolio/blob/39cef7ce101c2984763739dce40b8bc59bae617f/public/portfolioImg.png',
+        url: 'https://kathleenmercado.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FportfolioImg.194db80a.png&w=640&q=95',
       }
     ]
   }
