@@ -6,7 +6,6 @@ import Footer from '@/components/Footer';
 import ThemeSwitch from '@/components/ThemeSwitch';
 import ThemeContextProvider from '@/context/ThemeContextProvider';
 import { Analytics } from '@vercel/analytics/react';
-import portfolioImg from "@/public/portfolioImg.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
