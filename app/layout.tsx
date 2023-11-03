@@ -10,6 +10,8 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  title: 'Kathleen Mercado | Portfolio',
+  description: 'Kathleen Mercado is a physical therapist turned software engineer',
   openGraph: {
     title: 'Kathleen Mercado | Portfolio',
     description: 'Kathleen Mercado is a physical therapist turned software engineer',
