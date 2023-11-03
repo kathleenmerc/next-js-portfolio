@@ -15,7 +15,11 @@ export const metadata = {
     description: 'Kathleen Mercado is a physical therapist turned software engineer',
     url: 'https://kathleenmercado.vercel.app/',
     type: 'website',
-    author: 'Kathleen Mercado',
+    article: [
+      {
+        author: 'Kathleen Mercado',
+      }
+    ],
     images: [
       {
         url: 'https://kathleenmercado.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FportfolioImg.194db80a.png&w=640&q=95',
