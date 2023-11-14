@@ -17,6 +17,10 @@ export default function Project({
     repoLink 
     }: ProjectProps) {
   return (
+    <Link 
+                    href={liveLink}
+                    target="_blank"
+                    >
         <section className='flex-col justify-center text-center mt-3 mb-2 mx-2 p-6 bg-slate-100 hover:bg-white hover:border-gray-200 hover:shadow-lg transition w-[24rem] border border-black/5 rounded-lg overflow-hidden dark:text-white dark:bg-white/10 dark:hover:bg-white/15 '>
 
             {/* project title */}
@@ -68,5 +72,6 @@ export default function Project({
 
 
         </section>
+        </Link>
     )
 }
