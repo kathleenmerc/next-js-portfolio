@@ -48,7 +48,7 @@ export default function Intro() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span>Hello, my name is Kathleen 👋🏽</span><br />
-                <span>I&apos;m a physical therapist turned software engineer 👩🏻‍⚕️👩🏻‍💻</span><br />
+                <span>I&apos;m a physical therapist turned web developer 👩🏻‍⚕️👩🏻‍💻</span><br />
                 <span>Let&apos;s connect! 🫱🏽‍🫲🏼</span><br />
             </motion.h1>
 
