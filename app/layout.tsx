@@ -11,10 +11,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Kathleen Mercado | Portfolio',
-  description: 'Kathleen Mercado is a physical therapist turned software engineer',
+  description: 'Kathleen Mercado is a physical therapist turned web developer.',
   openGraph: {
     title: 'Kathleen Mercado | Portfolio',
-    description: 'Kathleen Mercado is a physical therapist turned software engineer',
+    description: 'Kathleen Mercado is a physical therapist turned web developer.',
     url: 'https://kathleenmercado.vercel.app/',
     type: 'website',
     article: [
