@@ -11,12 +11,12 @@ import { useSectionInView } from '@/lib/hooks';
 export default function Intro() {
 
     {/* setting the active section when Intro section is in viewport */ }
-    const { ref } = useSectionInView("Home", 1);
+    const { ref } = useSectionInView("About", 1);
 
     return (
         <section
             ref={ref}
-            id='home'
+            id='about'
             className='mb-20 mt-24 max-w-[50rem] text-center sm:mb-30 sm:mt-0 scroll-mt-[100rem]'
         >
             {/* profile photo  */}
